@@ -318,9 +318,6 @@ const AddTaskButton = styled.button`
   }
 `;
 
-// Sample ticket data - removed and replaced with empty array
-const initialTickets = [];
-
 function TicketSystem() {
   const [tickets, setTickets] = useState([]);
   const [selectedTicketId, setSelectedTicketId] = useState(null);

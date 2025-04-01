@@ -386,7 +386,7 @@ function AIChat() {
     } catch (error) {
       console.error('Error loading saved settings:', error);
     }
-  }, []);
+  }, [savedSettings]);
 
   const handleSend = async () => {
     if (!inputText.trim()) return;
